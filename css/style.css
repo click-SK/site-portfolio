@@ -296,6 +296,10 @@ ul {
   padding: 5px 15px;
 }
 
+.aside .nav li a span {
+  padding-left: 65%;
+}
+
 .aside .nav li a.active {
   color: var(--skin-color);
 }
@@ -337,18 +341,22 @@ h3.my-profession {
   color: var(--skin-color);
 }
 
+.typing-2 {
+  color: var(--skin-color);
+}
+
 .home-info p {
   margin-bottom: 70px;
   font-size: 20px;
   color: var(--text-black-700);
 }
 
-/* фон під фотку */
+/* фон під фотку
 .backgroun-img {
   flex: 0 0 40%;
   background: var(--skin-color);
   border-radius: 10%;
-}
+} */
 
 .home .home-img {
   flex: 0 0 40%;
@@ -382,7 +390,7 @@ h3.my-profession {
 .home .home-img img {
   width: 100%;
   margin: auto;
-/*   border-radius: 10px; */
+  border-radius: 10px;
   background: var(--skin-color);
 }
 
@@ -676,6 +684,13 @@ h3.my-profession {
   display: block;
 }
 
+.portfolio .portfolio-item-inner .href-proj {
+  position: absolute;
+  flex: 0 0 100%;
+  color: red;
+  z-index: 100;
+}
+
 /* contact */
 
 .contact-title {
@@ -753,6 +768,11 @@ h3.my-profession {
   transition: all 0.3s ease;
 }
 
+._error{
+  box-shadow: 0 0 15px red;
+}
+
+
 .contact .contact-form .form-item .form-control:focus {
   box-shadow: 0 0 25px rgba(48, 46, 77, 0.15);
 }
@@ -771,7 +791,7 @@ h3.my-profession {
     left: -270px;
   }
 
-  .section .container{
+  .section .container {
     padding-top: 70px;
   }
 
